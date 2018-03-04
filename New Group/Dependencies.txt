@@ -1,0 +1,7 @@
+# need to run `xcodebuild -list -project Whatever.xcodeproj`
+
+Carthage/Checkouts/react-native/React/React.xcodeproj,React
+Carthage/Checkouts/react-native/Libraries/Websocket/RCTWebSocket.xcodeproj,RCTWebSocket
+
+Carthage/Checkouts/react-native/Libraries/Text/RCTText.xcodeproj,RCTText
+Carthage/Checkouts/react-native/Libraries/Image/RCTImage.xcodeproj,RCTImage
