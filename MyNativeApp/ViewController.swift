@@ -8,8 +8,18 @@
 
 import UIKit
 
+var name = ""
+
 class ViewController: UIViewController {
 
+    @IBOutlet weak var enterName: UITextField!
+    @IBAction func submitButton(_ sender: Any) {
+        print("pressed button!")
+        if(enterName.text != ""){
+            name = enterName.text!
+            performSegue(withIdentifier: "segue", sender: self)
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
