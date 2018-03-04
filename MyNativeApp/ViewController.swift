@@ -14,7 +14,6 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var enterName: UITextField!
     @IBAction func submitButton(_ sender: Any) {
-        print("pressed button!")
         if(enterName.text != ""){
             name = enterName.text!
             performSegue(withIdentifier: "segue", sender: self)

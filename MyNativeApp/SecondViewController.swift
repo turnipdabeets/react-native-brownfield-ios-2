@@ -12,6 +12,9 @@ class SecondViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
+    @IBAction func toReactNative(_ sender: Any) {
+        print("pressed RN!")
+    }
     override func viewDidAppear(_ animated: Bool) {
         label.text = name
     }
